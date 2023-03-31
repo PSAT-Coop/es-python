@@ -13,12 +13,12 @@ if es.indices.exists(index='my_index'):
 es.indices.create(index='my_index')
 
 
-#from elasticsearch import Elasticsearch
+# from elasticsearch import Elasticsearch
 
-# Elasticsearch 서버에 연결
-#es_host = "http://localhost:9200"
-#es = Elasticsearch([es_host])
+# # Elasticsearch 서버에 연결
+# es_host = "http://localhost:9200"
+# es = Elasticsearch([es_host])
 
-# my_index에 있는 모든 문서 삭제
-#es.delete_by_query(index='my_index', body={'query': {'match_all': {}}})
+# # my_index에 있는 모든 문서 삭제
+# es.delete_by_query(index='my_index', body={'query': {'match_all': {}}})
 
